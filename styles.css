@@ -75,6 +75,11 @@ body {
     align-items: center;
 }
 
+.optionshover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
 .submit {
     background-color: hsl(25, 97%, 53%);
     color:hsl(0, 0%, 100%);
@@ -86,6 +91,11 @@ body {
     margin-top: 10px;
     font-family: 'Overpass', sans-serif;
     margin-bottom: 5px;
+}
+
+.submithover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
 }
 
 .attribution { font-size: 11px; text-align: center; }

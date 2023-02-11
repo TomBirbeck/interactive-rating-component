@@ -75,8 +75,13 @@ body {
     align-items: center;
 }
 
-.optionshover {
+.options-hover {
     background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.options-selected{
+    background-color: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%);
 }
 
@@ -93,7 +98,7 @@ body {
     margin-bottom: 5px;
 }
 
-.submithover{
+.submit-hover{
     background-color: hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
 }

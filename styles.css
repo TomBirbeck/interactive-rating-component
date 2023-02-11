@@ -1,25 +1,11 @@
 *{
     box-sizing: border-box;
-    /* background-color: #252d37; */
-    /* background-color: #121417; */
-    /* background */
-    /* background-color: rgb(20,21,23); */
-    /* card */
-    /* background-color: #1e252f; */
-    /* background-color: rgb(30,37,47);
-    background-color: hsl(215, 22%, 15%); */
-    /* background-color: #171e28; */
-    /* background-color: rgb(23,30,40);
-    background-color: hsl(215, 27%, 12%); */
-    /* options */
-    /* background-color: rgb(38,47,56);
-    background-color: hsl(210, 19%, 18%); */
 }
 
 body {
     margin: 0;
     padding: 0;
-    width: 1440px;
+    width: 100vw;
     height: 100vh;
     background-color: hsl(220, 7%, 8%);
     font-family: 'Overpass', sans-serif;
@@ -32,14 +18,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    height: 95vh;
 }
 
 .card {
     width:330px;
     height: 330px;
     border-radius: 16px;
-    /* background-color: hsl(215, 22%, 15%); */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -67,7 +52,7 @@ body {
 }
 .subtext {
     color: hsl(217, 12%, 63%);
-    font-size: 13px;
+    font-size: 12.5px;
     margin-top: -5px;
 }
 
@@ -113,7 +98,7 @@ body {
 .thankyou-image {
     height: 100px;
     width: 140px;
-    margin: 20px 0 20px -10px;
+    margin: 20px 0 10px -10px;
     align-self: center;
 }
 
@@ -136,10 +121,11 @@ body {
     font-weight: 700;
     text-align: center;
 }
+
 .thankyou-subtext {
     color: hsl(217, 12%, 63%);
     font-size: 12.5px;
-    margin-top: -10px;
+    margin-top: -15px;
     text-align: center;
 }
 
@@ -153,5 +139,5 @@ body {
     display: none;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%) }
 .attribution a { color: hsl(228, 45%, 44%); }

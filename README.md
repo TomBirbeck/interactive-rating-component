@@ -37,7 +37,7 @@ Here is my solution:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/interactive-rating-component-desktop-pYimSeRXUJ)
 - Live Site URL: [Live site](https://tombirbeck.github.io/interactive-rating-component/)
 
 ## My process
@@ -60,5 +60,6 @@ It was good to remind myself about the mouse enter and leave events and how to c
 
 ## Author
 
-- Website - [Tom Birbeck](https://www.your-site.com)
+- Website - [Tom Birbeck](https://portfolio-tombirbeck.vercel.app/)
+- Github - [Thomasb](https://github.com/TomBirbeck)
 - Frontend Mentor - [Tom Birbeck](https://www.frontendmentor.io/profile/TomBirbeck)

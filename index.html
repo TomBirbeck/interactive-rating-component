@@ -13,7 +13,7 @@
 </head>
 <body>
 <main class="main">
-<div class="card" >
+<div class="card rating-card" >
   <span class="star-container">
     <img src="./images/icon-star.svg" alt="star icon"/>
   </span>
@@ -29,18 +29,22 @@
     </div>
     <button class="submit">SUBMIT</button>
 </div>
-<span class="star-rating">0</span>
 
-  <!-- Thank you state start -->
+<div class="card thankyou-card" >
+    <img class="thankyou-image" src="./images/illustration-thank-you.svg" alt="receipt image"/>
+  
+    <div class="star-rating-container">
+      You selected <span class="star-rating">0</span> out of 5
+    </div> 
+    
+    <p class="thankyou-heading">
+      Thank you!
+    </p>
+    <p class="thankyou-subtext">We appreciate you taking the time to give a rating.</p>
+    <p class="thankyou-subtext">If you ever need more support, don’t hesitate to</p>
+    <p class="thankyou-subtext">get in touch!</p>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+</div>
 </main>
 
 <footer>

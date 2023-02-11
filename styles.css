@@ -1,14 +1,77 @@
-body {
+*{
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
-    width: 375px;
-    /* background-color: black; */
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.card {
+    width:350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .star-container {
     border-radius: 50%;
-    background-color: blue;
+    height: 30px;
+    width: 30px;
+    background-color: hsl(216, 12%, 54%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+.subtext {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: hsl(216, 12%, 54%);
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    align-self: center;
+    margin-top: 10px;
 }
 
 .attribution { font-size: 11px; text-align: center; }

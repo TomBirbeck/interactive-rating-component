@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    /* background-color: #252d37; */
+    /* background-color: #121417; */
 }
 
 body {
@@ -8,6 +10,9 @@ body {
     width: 1440px;
     height: 100vh;
     background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+
 }
 
 .main {
@@ -19,20 +24,24 @@ body {
 }
 
 .card {
-    width:350px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: hsl(213, 19%, 18%);
+    width:330px;
+    height: 330px;
+    border-radius: 16px;
+    background-color: hsl(213, 20%, 18%);
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /* background: rgb(18,20,23);
+    background: linear-gradient(0deg, rgba(18,20,23,1) 0%, rgba(37,45,55,1) 55%); */
 }
 
 .star-container {
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: hsl(216, 12%, 54%);
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: hsl(216, 12%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +49,14 @@ body {
 
 .heading {
     color: hsl(0, 0%, 100%);
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
 }
 .subtext {
     color: hsl(217, 12%, 63%);
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: -5px;
 }
 
 .options-container {
@@ -54,8 +66,8 @@ body {
 
 .options {
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     color: hsl(216, 12%, 54%);
     background-color:  hsl(216, 12%, 8%);
     display: flex;
@@ -66,12 +78,14 @@ body {
 .submit {
     background-color: hsl(25, 97%, 53%);
     color:hsl(0, 0%, 100%);
-    padding: 10px;
+    padding: 11px;
     border: none;
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     align-self: center;
     margin-top: 10px;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 5px;
 }
 
 .attribution { font-size: 11px; text-align: center; }

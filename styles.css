@@ -53,34 +53,45 @@ body {
 .subtext {
     color: hsl(217, 12%, 63%);
     font-size: 12.5px;
-    margin-top: -5px;
+    margin: -5px 0;
 }
 
 .options-container {
     display: flex;
+    padding-left: 0;
     justify-content: space-between;
+    border: none;
 }
 
 .options {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+  }
+
+  .options + label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     color: hsl(216, 12%, 54%);
     background-color: hsl(210, 19%, 18%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  }
 
-.options-hover {
+.options + label:is(:hover, :focus-visible) {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-.options-selected{
-    background-color: hsl(216, 12%, 54%);
-    color: hsl(0, 0%, 100%);
+.options:focus + label {
+    background-color:hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%)
 }
+
 
 .submit {
     background-color: hsl(25, 97%, 53%);
@@ -129,8 +140,7 @@ body {
     text-align: center;
 }
 
-
-.submit-hover{
+.submit:is(:hover) {
     background-color: hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
 }
@@ -139,5 +149,13 @@ body {
     display: none;
 }
 
+.visually-hidden {
+    color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
 .attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%) }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+

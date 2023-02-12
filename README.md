@@ -42,10 +42,16 @@ Here is my solution:
 
 ## My process
 
+#### Inital
+
 I began by setting the document to a box sizing of border box.
 I then created the card element for the star rating, making a html shell, adding the information and then styling as close to the original as I could.
 After this I created a main.js file and imported it into the html file using a script tag at the bottom of the body element. I used this file to capture the html elements and added eventlisteners so that I could track the mouse enter and leaving the option and submit button elements. I declared a stars variable to that I could capture the value when an element was selected.
 I then created the thank you card, to which I attached the hidden class. I created a function to handle the submit that would add the class hidden to the rating card and remove it from the thankyou card when the submit button was clicked.
+
+#### Refactored
+
+After receiving some feedback on my initial I went back and changed the rating system to a form with radio buttons and tried to match the styling to the original.
 
 ### Built with
 
@@ -57,6 +63,7 @@ I then created the thank you card, to which I attached the hidden class. I creat
 ### What I learned
 
 It was good to remind myself about the mouse enter and leave events and how to create a hover effect using them.
+After feedback I was able to learn more about how forms are set up and using the hover effect with pure CSS. By doing this I was able to reduce the amout of JavaScript required by a significant amount.
 
 ## Author
 

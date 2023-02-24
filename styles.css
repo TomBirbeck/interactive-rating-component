@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     background: rgb(23,30,40);
     background: linear-gradient(0deg, hsl(215, 27%, 12%) 0%, hsl(215, 22%, 15%) 50%);
+    transition: 2s all;
 }
 
 .star-container {
@@ -79,16 +80,21 @@ body {
     width: 40px;
     color: hsl(216, 12%, 54%);
     background-color: hsl(210, 19%, 18%);
+    transition: 0.8s all;
   }
 
 .options + label:is(:hover, :focus-visible) {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    transition: 0.8s all;
+
 }
 
 .options:focus + label {
     background-color:hsl(216, 12%, 54%);
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
+    transition: .8s all;
+
 }
 
 
@@ -142,6 +148,8 @@ body {
 .submit:is(:hover) {
     background-color: hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
+    transition: .8s all;
+
 }
 
 .hidden {

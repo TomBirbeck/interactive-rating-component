@@ -7,8 +7,10 @@ const handleSubmit = (e) => {
     e.preventDefault()
     let stars = form.rating.value
     starRating.textContent = stars
-    ratingCard.classList.add('hidden')
-    thankyouCard.classList.remove('hidden')
+    // ratingCard.classList.add('hidden')
+    ratingCard.style.opacity = 0;
+    // thankyouCard.classList.remove('hidden')
+    thankyouCard.style.opacity = 1;
 }
 
 form.addEventListener('submit', (e) => {handleSubmit(e)})

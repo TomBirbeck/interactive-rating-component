@@ -21,8 +21,10 @@ body {
 }
 
 .card {
-    width:330px;
-    height: 330px;
+    width: 30%;
+    max-width: 20rem;
+    height: 50%;
+    max-height: 30rem;
     border-radius: 22px;
     padding: 20px;
     display: flex;
@@ -109,6 +111,18 @@ body {
     margin-top: 10px;
     font-family: 'Overpass', sans-serif;
     margin-bottom: 5px;
+}
+
+.rating-card {
+    position: absolute;
+    opacity: 1;
+    transition: 1s ease-out;
+    z-index: 1;
+}
+
+.thankyou-card {
+    opacity: 0;
+    transition: 2s ease-in-out;
 }
 
 .thankyou-image {
